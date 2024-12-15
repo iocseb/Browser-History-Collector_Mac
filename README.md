@@ -38,6 +38,18 @@ cd browser-history-exporter
 cargo build --release
 ```
 
+3. The executable will be available at `target/release/browser_history_exporter`. You can optionally copy it to a convenient location:
+```bash
+# Option 1: Copy to system-wide location (requires sudo)
+sudo cp target/release/browser_history_exporter /usr/local/bin/browser-history
+
+# Option 2: Copy to your personal bin directory
+mkdir -p ~/bin
+cp target/release/browser_history_exporter ~/bin/browser-history
+```
+
+If you copy to `~/bin`, make sure this directory is in your PATH.
+
 ## Usage
 
 Run the application:
