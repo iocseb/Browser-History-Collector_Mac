@@ -1,0 +1,11 @@
+[package]
+name = "chrome_history_reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = "0.29.0"
+chrono = "0.4"
+walkdir = "2.3"
+anyhow = "1.0"
+csv = "1.2" 
